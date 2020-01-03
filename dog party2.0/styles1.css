@@ -1,0 +1,153 @@
+
+header{
+background-color: #75e2e6;
+height: 65px;
+border-bottom-style: solid;
+border-bottom-color: #048eaa;
+border-bottom-width: 5px;
+}
+.down{
+   padding-top: 5em;
+} 
+#head-text{
+    text-align: center;
+    color:#ffffff;
+    font-size: 40px;
+    margin: 0%;
+    font-family: sans-serif;
+}
+#logo1{
+   float:left;
+   margin-top: 5px;
+   margin-left: 20px;
+   height:50px;
+}
+
+header ul{
+    
+    list-style-type: none;
+    overflow: hidden; 
+    
+}
+header li{
+    float: right;
+    padding:8px;
+    display: block;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#banner{
+    /* box-sizing: border-box; */
+  
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/park.jpg');
+    background-size: cover;
+}
+
+.round-photo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #048eaa;
+    border-width: 5px;
+}
+.text-one{
+    margin-left: 35%;
+    font-family: sans-serif;
+    font-size: 1.25em;
+    color: #ffffff;
+}
+#form-stuff{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    width: 30%;
+    height: 3em;
+    border: 0px;
+}
+
+#button-2{
+    background-color: #75e2e6;
+    color: black;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+#exhibit{
+   
+    height: 500px;
+    display: table;
+    width: 100%;
+}
+.col{
+    padding-left: 2em;
+    padding-right: 2em;
+  
+    font-size: 1.2em;
+    font-family: sans-serif;
+    overflow: hidden;
+    display: table-cell;
+    
+   
+}
+/* #exhibit {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .col {
+    width: 33.3%;
+    padding-left: 0.5em;
+    font-size: 1.2em;
+    float: left;
+    font-family: sans-serif;
+    overflow: hidden;
+  } */
+h3{
+    text-align: center;
+}
+
+  .smol-round {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #048eaa;
+    border-width: 3px;
+   
+  }
+
+button{
+    width: 100%;
+    height: 3em;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: #048eaa;
+    border: 0px;
+    border-radius: 2%;
+    color: #ffffff;
+}
+footer{
+    margin-top: 5em;
+    padding: 2em;
+    height: 200px;
+    background-color: #048eaa;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+.social-icons{
+    padding: 2em;
+}
+.icon{
+    padding-right: 1em;
+}
+

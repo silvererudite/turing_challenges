@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+     <header>
+         <!--icon--> 
+          <img id="logo1" src="images/dog-icon.svg">
+         <!--rightside menu links-->
+       <ul>
+           <li>Facts from Dog</li>
+           <li>What Is Dogs</li>
+           <li>How to Dog</li>
+
+       </ul>
+
+     </header> 
+        
+     <section id="banner">
+         <!--first block of pic + text-->
+        <div class="down">
+       <h1 id="head-text">A Site About <b>Some Dogs</b></h1>
+        <image class="round-photo" src="images/dog1-sq.jpg"></image>
+        <br>
+        <form>
+           <p class="text-one">Name</p>
+            <input id="form-stuff" type="input" name="doggo"><br>
+            <input class="press" id="button-2" type="button" value= "Name This Dog">
+        </form>
+ </div>
+     </section>
+
+     <section id="exhibit">
+         <!--second block of pics and paras-->
+         
+             <div class="col">
+                <h3>How To Dog</h3>
+                <image class="smol-round" src="images/dog2-sq.jpg" alt="a pic of a sweet doggo"></image>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <br>
+                <button>How</button>
+                </div>
+             <div class="col ">
+                <h3>What Is Dogs</h3>
+                <image class="smol-round" src="images/dog3-2.jpg" alt="a pic of a sweet doggo"></image>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  <br>
+                    <button>What</button>
+                </div>
+             <div class="col">
+                    <h3>Facts From Dogs</h3>
+                    <image class="smol-round" src="images/dog4-2.jpg" alt="a pic of a sweet doggo"></image>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   <br>
+                    <button>Facts</button>
+                </div>
+
+        
+     </section>
+
+     <footer>
+         <!--with three social media icons centered-->
+         Learn About Dogs Online
+         <div class="social-icons">
+            <image class="icon" src="images/twitter.svg"></image>
+            <image class="icon" src="images/instagram.svg"></image>
+            <image class="icon" src="images/facebook.svg"></image>
+            <image src="images/linkedin.svg"></image>
+         </div>
+     </footer>
+        <script >
+          
+           const btn = document.getElementById("button-2");
+           var x = document.getElementById("form-stuff").value; 
+           console.log(x);
+           btn.addEventListener('click', function clicked(){
+              document.getElementById('head-text').innerHTML= "A Site About"+"<b> "+ x+"</b>";
+           });
+        
+        </script>
+    </body>
+</html>
