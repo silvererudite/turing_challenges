@@ -1,0 +1,23 @@
+body{
+    background-color: #F5F5F5;
+    font-family: 'Biryani', sans-serif;
+}
+nav{
+    width: 200px;
+    background-color: blueviolet;
+}
+#modal{
+    height: 60px;
+    width: 30%;
+    background-color: cadetblue;
+}
+.right-of-nav{
+    margin-left: 20%;
+}
+.wrapper-for-3{
+    width: 30%;
+}
+.three-sm{
+   float: right;
+}
+
